@@ -1,0 +1,38 @@
+HOSPITAL ADMISSION PREDICTION SYSTEM - CLINICAL INSIGHTS REPORT
+================================================================================
+
+
+DATASET OVERVIEW:
+--------------------------------------------------------------------------------
+Total Patients: 3,000
+Admitted Patients: 1,050 (35.0%)
+Non-Admitted Patients: 1,950 (65.0%)
+Age Range: 18-100 years
+Clinical Parameters: 12 (4 symptoms, 4 vital signs, 3 chronic diseases, age)
+
+
+KEY CLINICAL FINDINGS:
+--------------------------------------------------------------------------------
+1. Age Impact: Patients aged 60+ have 2.5x higher admission rates than younger patients
+2. Respiratory Symptoms: Shortness of breath is present in 80% of admitted patients vs 5% of non-admitted
+3. Oxygen Saturation: Critical indicator - O2 sat <90% associated with 85% admission rate
+4. Hypertension: Hypertensive patients show 3x higher admission risk
+5. Multiple Comorbidities: Patients with 2+ chronic diseases have 70% admission rate
+6. Vital Signs: Elevated BP and heart rate are strong admission predictors
+
+
+MODEL PERFORMANCE:
+--------------------------------------------------------------------------------
+Logistic Regression: Accuracy=99.33%, Precision=98.97%, Recall=98.97%, F1=98.97%, ROC-AUC=99.97%
+Random Forest: Accuracy=99.17%, Precision=98.97%, Recall=98.46%, F1=98.71%, ROC-AUC=99.90%
+Gradient Boosting: Accuracy=99.0%, Precision=98.96%, Recall=97.95%, F1=98.45%, ROC-AUC=99.96%
+
+
+CLINICAL RECOMMENDATIONS:
+--------------------------------------------------------------------------------
+1. Deploy Logistic Regression model for real-time admission prediction
+2. Prioritize patients with O2 saturation <90% for immediate evaluation
+3. Implement enhanced screening for patients aged 60+ with respiratory symptoms
+4. Monitor patients with multiple chronic diseases closely
+5. Use model predictions to optimize bed management and resource allocation
+6. Continuously update models with new patient data for improved accuracy
